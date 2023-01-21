@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(0, 255, 42);
+}
+
+/*
+id se llaman con el #
+class se llaman con . 
+
+*/
+
+nav {
+    text-align: center;
+}
+
+#izquierda{
+    background-color: aqua;
+}
+
+#derecha{
+    background-color: blanchedalmond;
+    text-align: right;
+}
+
+#footer{
+    background-color: blue;
+}
+
+strong {
+    font-weight: bold;
+    color: rgb(214, 142, 9);
+  }
+
+  #fondo {
+     background-color: aqua;
+    /* background-image: url('../img/andres.jpg'); */
+  }
+
+
+  /* . se llaman a las class de html */
+
+  .destacado1{
+            background-color: yellow;
+            color: bisque;
+  }
+
+
+  .destacado2{
+                background-color: blue;
+                color: cadetblue;
+  }
+
+  .rotar:hover{
+    transform: rotate(180deg);
+  }
+
+  #formulario{
+    background-color: springgreen;
+    flex-direction: column;
+    margin: 1rem auto 0 auto;
+    width: 40%;
+  }

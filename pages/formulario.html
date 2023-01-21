@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../assets/css/style.css">  <!--ruta-->
+    
+</head>
+<body>
+    <form id="formulario" action="#" method="" name="">
+        <label for="name">nombres</label><br>
+        <input type="text" name="name" id="name" placeholder="Ej: Andrés"><br>
+
+        <label for="apellidos">apellidos</label><br>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Ej: Orozco"><br>
+
+        <label for="telefono">telefono</label><br>
+        <input type="number" id="telefono" name="telefono" placeholder="Ej: 3242770059"><br>
+
+        <label for="password">contraseña</label><br>
+        <input type="password" id="password" name="password" placeholder="Ej: 1234"><br>
+
+        <label for="sexo">sexo</label><br>
+        <input type="radio" id="sexo" name="sexo" value="F">Femenino
+        <input type="radio" id="sexo" name="sexo" value="M">Masculino <br> <br>
+
+        <label for="intereses">intereses</label><br>
+        <input type="checkbox" id="intereses" name="intereses" value="1">Peliculas
+        <input type="checkbox" id="intereses" name="intereses" value="2">Ir a la playa <br> <br>
+
+        <label for="nacimiento">Fecha de nacimiento</label><br>
+        <input type="date" id="nacimiento" name="nacimiento"><br> <br>
+
+        <label for="time">Fecha de time</label><br>
+        <input type="time" id="time" name="time"><br> <br>
+
+        <label for="ciudad">ciudad de nacimiento</label><br>
+        <select name="ciudadn" id="ciudad">
+            <option value="1">manizales</option>
+            <option value="2">armenia</option>
+            <option value="3">cienaga</option>
+            <option value="4">cartagena</option>
+        </select><br> <br>
+
+        <Label for="comentario">comentario o sugerencia</Label><br> <br>
+        <textarea name="comentario" id="comentario" cols="25" rows="11"></textarea><br> <br>
+        
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
